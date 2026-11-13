@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791904316206,
+  "lastUpdate": 1794606395561,
   "repoUrl": "https://github.com/EdmondAraujo/claude-repomix",
   "entries": {
     "Repomix Performance": [
@@ -45,6 +45,44 @@ window.BENCHMARK_DATA = {
             "range": "±18",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1313ms, Q3: 1331ms\nAll times: 1301, 1303, 1306, 1311, 1313, 1313, 1315, 1318, 1319, 1319, 1320, 1321, 1324, 1329, 1329, 1331, 1335, 1336, 1346, 1363ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "758c3d716907abff2b902aff0447c347e455a2da",
+          "message": "Merge pull request #1974 from yamadashy/renovate/major-root-major-dependencies\n\nfix(deps): update dependency chokidar to v6",
+          "timestamp": "2026-11-08T17:54:08+09:00",
+          "tree_id": "dc584d8850f51d1624b0a436491d1808e1c8e5e1",
+          "url": "https://github.com/EdmondAraujo/claude-repomix/commit/758c3d716907abff2b902aff0447c347e455a2da"
+        },
+        "date": 1794606395090,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 985,
+            "range": "±15",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 976ms, Q3: 991ms\nAll times: 957, 958, 968, 973, 973, 976, 978, 983, 984, 985, 985, 986, 988, 989, 990, 991, 993, 1023, 1128, 1133ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 1482,
+            "range": "±31",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1462ms, Q3: 1493ms\nAll times: 1445, 1451, 1453, 1454, 1456, 1462, 1465, 1469, 1471, 1477, 1482, 1483, 1488, 1491, 1492, 1493, 1493, 1514, 1533, 1541ms"
           }
         ]
       }
